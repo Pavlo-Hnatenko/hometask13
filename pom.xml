@@ -4,6 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <groupId>org.example</groupId>
     <artifactId>hometask13</artifactId>
     <packaging>pom</packaging>
@@ -11,6 +15,7 @@
     <modules>
         <module>line-match-reader-app</module>
         <module>directory-content-copy-app</module>
+        <module>start-app</module>
     </modules>
 
 
